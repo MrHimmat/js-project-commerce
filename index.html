@@ -23,10 +23,13 @@
             <input type="text" name="search" class="inputSearch" placeholder="Search Products ...">
 
 
-            <i class="fa-solid fa-cart-arrow-down"></i>
-
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <span class="cart-count">0</span>
+            </div>
         </div>
 
+        
         <div class="hero-section ">
             <h2 class="hero-head">Elevate Your Style</h2>
             <p class="hero-para">
@@ -42,7 +45,8 @@
             <div>
                 <h2>New Arrivals</h2>
 
-                <select name="" id="">
+                <select name="sort" id="sortSelect">
+                    <option value="default">Sort By</option>
                     <option value="low-to-high">Price: Low To High</option>
                     <option value="high-to-low">Price: High To Low</option>
                     <option value="name">Name</option>
